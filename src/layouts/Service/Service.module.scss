@@ -1,0 +1,65 @@
+.service {
+    padding: 144px 0px;
+    background-color: #131518;
+}
+.wrapper-items {
+    background-color: #282c30;
+    border-radius: 27px;
+    padding: 71px 50px 53px;
+    margin: 0px 50px;
+}
+.item {
+    text-align: center;
+}
+
+.decor {
+    position: absolute;
+    top: 50%;
+    right: -32px;
+}
+.image {
+    position: relative;
+}
+.separate {
+    position: relative;
+    &::before {
+        content: url(../../assets/icons/IconCom/service-decor1.svg);
+        position: absolute;
+        top: 28%;
+        left: 140px;
+        display: block;
+        width: 200px;
+        height: 1px;
+    }
+    &::after {
+        content: url(../../assets/icons/IconCom/service-decor1.svg);
+        position: absolute;
+        top: 28%;
+        right: 140px;
+        display: block;
+        width: 200px;
+        height: 1px;
+    }
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-wrapper {
+    margin-bottom: 30px;
+}
+.info {
+    width: 238px;
+}
+.heading {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #858b93;
+    width: 234px;
+}

@@ -1,0 +1,45 @@
+@use '../../scss/abstracts';
+
+.header-wrapper {
+    background-color: #131518;
+    padding-top: 40px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.items {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.item-link {
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #858b93;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    &:hover {
+        color: var(--text-color);
+    }
+    &:hover::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        animation: runnav 0.4s;
+        width: 40%;
+        height: 2px;
+        background-color: rgb(10, 215, 10);
+    }
+    @keyframes runnav {
+        from {
+            width: 0;
+        }
+        to {
+            width: 40%;
+        }
+    }
+}

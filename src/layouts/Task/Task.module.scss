@@ -1,0 +1,77 @@
+.task {
+    background-color: #131518;
+    padding-bottom: 200px;
+}
+.heading {
+    width: 368px;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 22px;
+    margin-top: 17px;
+}
+.mark {
+    background-color: transparent;
+    color: rgb(78, 222, 78);
+}
+.desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #858b93;
+    margin-bottom: 60px;
+    width: 537px;
+}
+.item {
+    background-color: #272633;
+    width: 132px;
+    padding: 32px 0;
+    border-radius: 9px;
+    cursor: pointer;
+    &:hover {
+        background: linear-gradient(
+            191.94deg,
+            #c4f566 -43.72%,
+            #ae8ef9 -5.87%,
+            #ef8f00 52.36%,
+            #61e559 122.78%
+        );
+    }
+}
+.wrapper-items {
+    width: 432px;
+    text-align: center;
+    color: #858b93;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-heading {
+    display: block;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.item-desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.item.active {
+    background: linear-gradient(
+        191.94deg,
+        #c4f566 -43.72%,
+        #ae8ef9 -5.87%,
+        #ef8f00 52.36%,
+        #61e559 122.78%
+    );
+    margin-top: 34px;
+    color: #fff;
+}
+.banner {
+    position: relative;
+}
+.banner-decor {
+    position: absolute;
+    left: 0px;
+}

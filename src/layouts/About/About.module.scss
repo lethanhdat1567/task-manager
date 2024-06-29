@@ -1,0 +1,62 @@
+.about {
+    padding: 140px 0px;
+}
+.inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading {
+    text-align: center;
+    width: 478px;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.mark {
+    background-color: transparent;
+    color: greenyellow;
+}
+.desc {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #858b93;
+    margin: 30px 0px 44px;
+    width: 720px;
+}
+.wrap-btn {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 422px;
+    margin-top: 75px;
+}
+.about-img1,
+.about-img2,
+.about-img3,
+.about-img4 {
+    position: absolute;
+    top: 0;
+}
+.about-img1 {
+    top: 0;
+    left: 120px;
+}
+
+.about-img2 {
+    left: 566px;
+}
+
+.about-img3 {
+    top: 45%;
+    left: 566px;
+}
+
+.about-img4 {
+    top: 0;
+    right: 122px;
+}
